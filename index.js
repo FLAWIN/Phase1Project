@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const cityName = document.querySelector("#cityName");
   const Temp = document.querySelector("#temp");
   const main = document.querySelector("#main");
-  const discription = document.querySelector("#discription");
+  const discription = document.querySelector("#description");
   const image = document.querySelector("#image");
 
   input.onsubmit = (e) => {
