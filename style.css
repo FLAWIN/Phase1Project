@@ -1,23 +1,24 @@
 body{
-    background: #8484a8;
+    background: #05d8aa;
   margin-top:20px;
+  background-image: url('https://wallpaperaccess.com/full/6781503.png');
 }
 form{
-    background:#ff8080;
-    padding: 5px;
+    background:#3d6b02;
+    padding: 10px;
     width: fit-content;
     margin: 0 auto;
     border-radius: 10px;
 }
 input[type="text"]{
-    font-size: 1em;
+    font-size: 2em;
     border:0;
     padding:10px;
     border-radius: 10px 0 0 10px;
     outline: 0;
 }
 input[type="submit"]{
-    font-size: 1em;
+    font-size: 2em;
     border:0;
     padding:10px;
     border-radius: 0 10px 10px 0;
@@ -29,12 +30,13 @@ input[type="submit"]{
     top:50%;
     left:50%;
     transform:translate(-50%, -50%);
-    background:rgb(158, 236, 158);
+    background:rgb(84, 85, 143);
     padding: 20px;
     border-radius:15px;
-    height:150px;
-    width:300px;
+    height:200px;
+    width:400px;
     box-shadow: 0 0 20px 2px #5e5d5da9 ;
+    
     
 }
 
@@ -43,9 +45,10 @@ input[type="submit"]{
     top:0;
     left:0;
     font-size: 2.9em;
-    width:290px;
-    white-space: nowrap;
-    overflow-x: scroll;
+    width:200px;
+    background-color: antiquewhite;
+   
+    
 }
 
 #image{
@@ -68,21 +71,17 @@ input[type="submit"]{
 
 #main{
     position: absolute;
-    bottom:40px;
+    bottom:60px;
     right:10px;
-    font-size: 2em;
+    font-size: 3em;
 
 }
 
-#discription{
-    position: absolute;
-    bottom:5px;
-    right:0px;
-    font-size: 1.1em;
-    background:rgba(216, 250, 239, 0.555);
+#description{
+    position:absolute;
+    bottom:1px;
+    right:1px;
+    font-size: 1.3em;
+    background:rgba(228, 11, 11, 0.555);
     border-radius: 0 0 10px 10px;
-}
-
-#head{
-    font-size:xx-large;
 }
