@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<script defer src="index.js"></script>
+<title>Weather App</title>
+
+<head>
+    <meta charset='UTF-8'/>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'/>
+    <script defer src='js/index.js'></script>
+    <link rel='stylesheet' href='style.css'/>
+
+</head>
+
+<body>
+    <p style="font-size: xx-large;">Weather app</p>
+<div class="container">
+    <form id="input">
+      <input type="text" id="city" placeholder="Enter City Name">
+      <input type="submit" value="Get Updates">
+    </form>
+    <div id="weatherContainer">
+      <marquee id="cityName">Nairobi</marquee>
+      <span id="temp">25°C</span>
+      <span id="main">Cloudy</span>
+      <marquee id="discription">few clouds</marquee>
+      <img id="image" src="https://openweathermap.org/img/wn/">
+    </div>
+  </div>
+</body>
+</html>
