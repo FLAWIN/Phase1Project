@@ -13,7 +13,7 @@
 Weather forecasting and predictions has been in practice for ages and as the world evolves the demand of new, effective and easier innovative technologies, have been appreciated to curb the increasing change in climatic conditions. Having an application that will easily show the weather forecast, predictions and patterns will ensure early preparations and decision making in various fields such as Agriculture, Engineering, Sustainability, Food security, Energy, Disaster Management, Transportation, Development and Infrastructure just to name a few.
 
 ### API: 
-`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=78fbb2284a9b5c083789b0273c025e2b`
+`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=33cff31f39d06f1c2d11b29103803865`
 
  ## Requirements
 
